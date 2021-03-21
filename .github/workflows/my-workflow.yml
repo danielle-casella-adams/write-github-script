@@ -2,7 +2,7 @@ name: GitHub Script Workflow
 
 on:
   issues:
-    [opened]
+    types: [opened]
 
 jobs:
   comment:
